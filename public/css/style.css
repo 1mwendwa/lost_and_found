@@ -1,0 +1,272 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap');
+    * {
+        font-family: 'Roboto Serif', sans-serif;
+    }
+    
+    .navb {
+        background: #030358;
+    }
+    
+    .navbar-brand {
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+    
+    .nav-item {
+        font-size: 20px;
+        color: white;
+        border-radius: 20px;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    /* .nav-item:hover {
+    background: white;
+    color: #030358;
+    border-radius: 20px;
+} */
+    
+    .box {
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    .lost {
+        /* width: 50%; */
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* margin-left: 20%; */
+        margin: 20px;
+    }
+    
+    .lost .search-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .lost .search {
+        background: white;
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .lost .search .svg {
+        background: #0a0a3f;
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    
+    .lost .search .svg svg {
+        margin: auto;
+        font-size: 30px;
+        height: 100px;
+        width: 100px;
+        color: white;
+    }
+    
+    .lost .search .svg:hover {
+        width: 200px;
+        height: 200px;
+        transition: ease-in-out 0.5s;
+    }
+    /* .lost .search .svg svg:hover {
+    height: 120px;
+    width: 120px;
+    transition: ease-in-out 0.6s;
+} */
+    
+    .lost .lost-smng {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        font-size: 20px;
+    }
+    
+    .lost .lost-smng a {
+        text-decoration: none;
+        color: white;
+        background: #0a0a3f;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .lost .lost-smng a:hover {
+        color: #0a0a3f;
+        background: white;
+        transition: ease-out 0.5s;
+    }
+    
+    .found {
+        /* width: 50%; */
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* margin-right: 20%; */
+        margin: 20px;
+    }
+    
+    .found .search-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .found .search {
+        background: white;
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .found .search .svg {
+        background: #0a0a3f;
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    
+    .found .search .svg svg {
+        margin: auto;
+        font-size: 30px;
+        height: 100px;
+        width: 100px;
+        color: white;
+    }
+    
+    .found .search .svg:hover {
+        width: 200px;
+        height: 200px;
+        transition: ease-in-out 0.5s;
+    }
+    /* .lost .search .svg svg:hover {
+    height: 120px;
+    width: 120px;
+    transition: ease-in-out 0.6s;
+} */
+    
+    .found .lost-smng {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        font-size: 20px;
+    }
+    
+    .found .lost-smng a {
+        text-decoration: none;
+        color: white;
+        background: #0a0a3f;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .found .lost-smng a:hover {
+        color: #0a0a3f;
+        background: white;
+        transition: ease-out 0.5s;
+    }
+    
+    .card-title {
+        color: #030358;
+        text-transform: capitalize;
+        /* border-bottom: solid #030358 2px; */
+    }
+    
+    .card-header {
+        color: #030358;
+        text-transform: capitalize;
+        font-weight: 800;
+        /* border-bottom: solid #030358 2px; */
+    }
+    
+    .fw {
+        font-weight: 100;
+    }
+    
+    .heading {
+        background: #030358;
+        color: white;
+        border-radius: 10px;
+        width: 250px;
+        padding: 10px;
+        text-transform: capitalize;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .btn-c {
+        background: #030358;
+        color: white;
+    }
+    
+    .f-25 {
+        font-size: 75px;
+    }
+    
+    .c-or {
+        color: #FF3C00;
+    }
+    
+    . @media screen and (max-width: 1000px) {
+        .box {
+            display: flex;
+            /* flex-direction: column; */
+        }
+        .lost,
+        .found {
+            height: 50vh;
+        }
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    @media screen and (max-width: 900px) {
+        .lost .search,
+        .found .search {
+            width: 250px;
+            height: 250px;
+        }
+        .lost .search .svg,
+        .found .search .svg {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        .box {
+            flex-direction: column;
+        }
+        .lost,
+        .found {
+            height: 30vh;
+        }
+        .lost .search,
+        .found .search {
+            width: 200px;
+            height: 200px;
+        }
+        .lost .search .svg,
+        .found .search .svg {
+            width: 150px;
+            height: 150px;
+        }
+    }
